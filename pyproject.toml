@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "word-guessing"
+version = "2.0.0"
+description = "A classic word-guessing (hangman-style) game in the terminal"
+requires-python = ">=3.10"
+
+[project.scripts]
+word-guessing = "word_guessing.main:main"
